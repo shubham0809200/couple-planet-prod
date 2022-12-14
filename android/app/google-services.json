@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957274689201",
+    "project_id": "couple-planet-3",
+    "storage_bucket": "couple-planet-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957274689201:android:c11a49a2c4acb31dcfdc90",
+        "android_client_info": {
+          "package_name": "com.example.couple_planet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957274689201-frfc56p42ol9gt99si3eddacma2qrugl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy3RFcSVY6ZBKZLy84Yh3EfcZg3xYVvbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957274689201-frfc56p42ol9gt99si3eddacma2qrugl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
