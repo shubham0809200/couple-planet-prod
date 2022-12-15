@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: const ColorScheme.dark().copyWith(
           primary: PaletteDark.textColor,
           secondary: PaletteDark.googleBackground,
-          onPrimary: Palette.kToDark,
+          onPrimary: PaletteDark.firebaseBlack,
           onSecondary: Palette.kToDark,
           onSurface: Palette.kToDark,
           onBackground: Palette.kToDark,

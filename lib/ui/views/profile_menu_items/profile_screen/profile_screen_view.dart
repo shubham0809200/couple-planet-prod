@@ -3,7 +3,7 @@ import 'package:couple_planet/core/constants.dart';
 import 'package:couple_planet/core/route_constants.dart';
 import 'package:couple_planet/models/user.model.dart';
 import 'package:couple_planet/res/custom_constant_data.dart';
-import 'package:couple_planet/ui/views/profile_screen/profile_screen_view_model.dart';
+import 'package:couple_planet/ui/views/profile_menu_items/profile_screen/profile_screen_view_model.dart';
 import 'package:couple_planet/ui/widgets/custom_snackbar.dart';
 import 'package:couple_planet/ui/widgets/drop_down_answer.dart';
 import 'package:couple_planet/ui/widgets/raised_gradient_button.dart';

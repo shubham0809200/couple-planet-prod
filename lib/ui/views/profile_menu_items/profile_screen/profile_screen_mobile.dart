@@ -8,7 +8,12 @@ class _ProfileScreenMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: bodyWidget());
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
+        body: bodyWidget());
   }
 
   Widget bodyWidget() {

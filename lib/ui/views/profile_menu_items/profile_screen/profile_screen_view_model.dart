@@ -12,7 +12,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:stacked/stacked.dart';
 
 class ProfileScreenViewModel extends FutureViewModel {
-  String title = "Profile Screen".toUpperCase();
+  String title = "Edit Profile".toUpperCase();
   String subTitle = "Your Search Ends here".toUpperCase();
 
   File? imageFile;

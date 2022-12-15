@@ -2,6 +2,8 @@ import 'package:couple_planet/core/auth_check.dart';
 import 'package:couple_planet/core/fade_transition.dart';
 import 'package:couple_planet/core/route_constants.dart';
 import 'package:couple_planet/ui/views/home_screen/home_screen_view.dart';
+import 'package:couple_planet/ui/views/profile_menu_items/invite_friends_screen/invite_friends_screen_view.dart';
+import 'package:couple_planet/ui/views/profile_menu_items/profile_screen/profile_screen_view.dart';
 import 'package:couple_planet/ui/views/sign_in_screen/sign_in_screen_view.dart';
 import 'package:couple_planet/ui/views/sign_up_screen/sign_up_screen_view.dart';
 import 'package:couple_planet/ui/views/splash_screen/splash_screen_view.dart';
@@ -28,6 +30,12 @@ class RouteGenerator {
 
       case homeScreen:
         return FadeRoute(page: const HomeScreenView());
+
+      case editProfileScreen: 
+        return FadeRoute(page: const ProfileScreenView());
+
+      case inviteFriendsScreen:
+        return FadeRoute(page: const InviteFriendsScreenView());
 
       default:
         return _errorRoute();

@@ -1,6 +1,6 @@
 import 'package:couple_planet/ui/views/chat_screen/chat_screen_view.dart';
 import 'package:couple_planet/ui/views/match_screen/match_screen_view.dart';
-import 'package:couple_planet/ui/views/profile_screen/profile_screen_view.dart';
+import 'package:couple_planet/ui/views/profile_menu_screen/profile_menu_screen_view.dart';
 import 'package:couple_planet/ui/views/swipe_card_screen/swipe_card_screen_view.dart';
 import 'package:stacked/stacked.dart';
 
@@ -12,7 +12,7 @@ class HomeScreenViewModel extends BaseViewModel {
     const SwipeCardScreenView(),
     const MatchScreenView(),
     const ChatScreenView(),
-    const ProfileScreenView()
+    const ProfileMenuScreenView()
   ];
 
   void updatePageIndex(int index) {
